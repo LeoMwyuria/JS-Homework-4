@@ -16,7 +16,7 @@ class Developer extends Employee {
     }
 
     getProgrammingLanguages() {
-        return this.programmingLanguages.join(', ');
+        return `Programming Languages: ${this.programmingLanguages.join(', ')}`;
     }
 }
 
@@ -27,7 +27,7 @@ class Marketer extends Employee {
     }
 
     getMarketingTools() {
-        return this.marketingTools.join(', ');
+        return `Marketing Tools: ${this.marketingTools.join(', ')}`;
     }
 }
 
@@ -38,7 +38,7 @@ class Accountant extends Employee {
     }
 
     getAccountingSoftware() {
-        return this.accountingSoftware.join(', ');
+        return `Accounting Software: ${this.accountingSoftware.join(', ')}`;
     }
 }
 
